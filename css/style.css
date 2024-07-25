@@ -887,3 +887,19 @@
 /*** copyright end ***/
 
 
+
+
+
+.logoftxraw{
+    width: 150px;
+    height: 1000%;
+    scale: 1.8;
+}
+
+@media (max-width: 767.98px) {
+    .logoftxraw {
+        /* transform: scale(0); */
+        scale: 1.2;
+        max-height: 100% !important;
+    }
+}
